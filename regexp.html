@@ -19,7 +19,7 @@
 <body>
     <h1>Validación de teléfono mediante a expresiones regulares:</h1>
     <form>
-        <input type="text" name="phone" placeholder="Enter 9 digits of your phone" pattern="(?:1\d)\d{8}" required />
+        <input type="text" name="phone" placeholder="Enter 9 digits of your phone" pattern="\d{9}|[0-10]" required />
         <br>
         <br>
         <input type="submit" />
